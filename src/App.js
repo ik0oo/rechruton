@@ -1,48 +1,60 @@
+// libs
 import { useEffect, useState } from 'react';
-
-import { parseDropdownData } from './parsers'
-import { View } from './view'
-
-import data from './data.json'
 import styled from 'styled-components';
+
+// compoents
+import { Dropdown } from './dropdown';
+
+// sevices
+import { initMap } from './map';
+
+// data
+import data2 from './__fixtures__/data2.json';
+import data from './__fixtures__/data.json'
 
 const Layout = styled.section`
   padding: 20px;
 `;
 
-const Loader = styled.section`
-    background: black;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    color: white;
-    font-size: 26px;
-
-  > img {
-    width: 50%;
-  }
-`;
+const parseDropdownData = (data) => {
+  return data.summary.names.filter((item) => item).map((label, id) => ({ label, id }));
+};
 
 function App() {
-  const [names, setNames] = useState(false);
+  const addMarkers = initMap();
+  const names = parseDropdownData(data);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setNames(parseDropdownData(data));
-    }, 2000);
-  }, [setNames]);
+  const onChangeName = async (data) => {
+    const map = document.getElementById('map');
+    map.classList.add('loading');
 
-  // fetch('http://206.189.9.184:8080/api/get?job_name="golang"')
-  //   .then(data => console.log(data));
+    await new Promise((res) => {
+      setTimeout(() => {
 
-  return !names ? (<Loader><img src="./recruthon_cover.gif" alt="Loading..." /></Loader>) : (
+        console.log(data)
+        map.classList.remove('loading');
+
+        const data2Parsed = Object.entries(data2.cities).filter(([key, { coordinates }]) => {
+          if (!key) return false;
+          if (!coordinates.latitude || !coordinates.longitude) return false;
+          return true;
+        }).map(([city, { vacancies, resumes, coordinates }]) => ({
+          city,
+          vacancies,
+          resumes,
+          coordinates
+        }));
+
+        addMarkers(data2Parsed)
+
+        res();
+      }, 2200);
+    });
+  };
+
+  return (
     <Layout className="App">
-      <View names={names} />
+      <Dropdown names={names} onChange={onChangeName} />
     </Layout>
   );
 }
