@@ -1,0 +1,604 @@
+{
+  "cities": {
+    "": {
+      "vacancies": {
+        "count": 246,
+        "mean_from": 182423.7288135593,
+        "median_from": 180000,
+        "mean_to": 265646.70658682636,
+        "median_to": 250000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "",
+        "longitude": ""
+      }
+    },
+    "Владивосток": {
+      "vacancies": {
+        "count": 2,
+        "mean_from": 80000,
+        "median_from": 80000,
+        "mean_to": 120000,
+        "median_to": 120000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "43.117122",
+        "longitude": "131.896018"
+      }
+    },
+    "Воронеж": {
+      "vacancies": {
+        "count": 2,
+        "mean_from": 85000,
+        "median_from": 85000,
+        "mean_to": 175000,
+        "median_to": 175000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "51.671793",
+        "longitude": "39.164955"
+      }
+    },
+    "Екатеринбург": {
+      "vacancies": {
+        "count": 7,
+        "mean_from": 123000,
+        "median_from": 90000,
+        "mean_to": 220000,
+        "median_to": 250000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "56.858724",
+        "longitude": "60.609505"
+      }
+    },
+    "Зеленоград": {
+      "vacancies": {
+        "count": 2,
+        "mean_from": 190000,
+        "median_from": 190000,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "55.982500",
+        "longitude": "37.181390"
+      }
+    },
+    "Ижевск": {
+      "vacancies": {
+        "count": 1,
+        "mean_from": 70000,
+        "median_from": 70000,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "56.851920",
+        "longitude": "53.232970"
+      }
+    },
+    "Иннополис": {
+      "vacancies": {
+        "count": 2,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 165000,
+        "median_to": 165000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "55.749820",
+        "longitude": "48.747540"
+      }
+    },
+    "Иркутск": {
+      "vacancies": {
+        "count": 2,
+        "mean_from": 110000,
+        "median_from": 110000,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "52.282563",
+        "longitude": "104.315805"
+      }
+    },
+    "Йошкар-Ола": {
+      "vacancies": {
+        "count": 1,
+        "mean_from": 45000,
+        "median_from": 45000,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "56.668015",
+        "longitude": "47.922499"
+      }
+    },
+    "Казань": {
+      "vacancies": {
+        "count": 2,
+        "mean_from": 65000,
+        "median_from": 65000,
+        "mean_to": 150000,
+        "median_to": 150000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "55.836366",
+        "longitude": "49.194134"
+      }
+    },
+    "Киров": {
+      "vacancies": {
+        "count": 1,
+        "mean_from": 35000,
+        "median_from": 35000,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "58.601171",
+        "longitude": "49.660563"
+      }
+    },
+    "Коломна": {
+      "vacancies": {
+        "count": 1,
+        "mean_from": 75000,
+        "median_from": 75000,
+        "mean_to": 125000,
+        "median_to": 125000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "55.084949",
+        "longitude": "38.787360"
+      }
+    },
+    "Краснодар": {
+      "vacancies": {
+        "count": 9,
+        "mean_from": 139444.44444444444,
+        "median_from": 135000,
+        "mean_to": 218500,
+        "median_to": 218500
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "45.043896",
+        "longitude": "38.983679"
+      }
+    },
+    "Красноярск": {
+      "vacancies": {
+        "count": 4,
+        "mean_from": 44250,
+        "median_from": 41000,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "56.025156",
+        "longitude": "93.050272"
+      }
+    },
+    "Магнитогорск": {
+      "vacancies": {
+        "count": 1,
+        "mean_from": 30000,
+        "median_from": 30000,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "53.410905",
+        "longitude": "59.058992"
+      }
+    },
+    "Москва": {
+      "vacancies": {
+        "count": 95,
+        "mean_from": 182851.85185185185,
+        "median_from": 180000,
+        "mean_to": 269903.8461538461,
+        "median_to": 250000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "55.741469",
+        "longitude": "37.615561"
+      }
+    },
+    "Нижний Новгород": {
+      "vacancies": {
+        "count": 1,
+        "mean_from": 250000,
+        "median_from": 250000,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "44.437500",
+        "longitude": "41.552800"
+      }
+    },
+    "Новосибирск": {
+      "vacancies": {
+        "count": 10,
+        "mean_from": 135555.55555555556,
+        "median_from": 150000,
+        "mean_to": 212857.14285714287,
+        "median_to": 200000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "55.045575",
+        "longitude": "82.932136"
+      }
+    },
+    "Омск": {
+      "vacancies": {
+        "count": 1,
+        "mean_from": 120000,
+        "median_from": 120000,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "54.964146",
+        "longitude": "73.417869"
+      }
+    },
+    "Орёл": {
+      "vacancies": {
+        "count": 1,
+        "mean_from": 120000,
+        "median_from": 120000,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "",
+        "longitude": ""
+      }
+    },
+    "Пермь": {
+      "vacancies": {
+        "count": 1,
+        "mean_from": 150000,
+        "median_from": 150000,
+        "mean_to": 250000,
+        "median_to": 250000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "57.987702",
+        "longitude": "56.243633"
+      }
+    },
+    "Псков": {
+      "vacancies": {
+        "count": 1,
+        "mean_from": 120000,
+        "median_from": 120000,
+        "mean_to": 200000,
+        "median_to": 200000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "57.813913",
+        "longitude": "28.354662"
+      }
+    },
+    "Ростов-на-Дону": {
+      "vacancies": {
+        "count": 4,
+        "mean_from": 93333.33333333333,
+        "median_from": 100000,
+        "mean_to": 275000,
+        "median_to": 275000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "47.236727",
+        "longitude": "39.702793"
+      }
+    },
+    "Рязань": {
+      "vacancies": {
+        "count": 10,
+        "mean_from": 74500,
+        "median_from": 70000,
+        "mean_to": 143333.33333333334,
+        "median_to": 130000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "54.608263",
+        "longitude": "39.752802"
+      }
+    },
+    "Самара": {
+      "vacancies": {
+        "count": 1,
+        "mean_from": 50000,
+        "median_from": 50000,
+        "mean_to": 100000,
+        "median_to": 100000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "53.230142",
+        "longitude": "50.223532"
+      }
+    },
+    "Санкт-Петербург": {
+      "vacancies": {
+        "count": 38,
+        "mean_from": 172064.51612903227,
+        "median_from": 170000,
+        "mean_to": 235353.56,
+        "median_to": 225000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "59.821127",
+        "longitude": "30.388194"
+      }
+    },
+    "Саратов": {
+      "vacancies": {
+        "count": 2,
+        "mean_from": 105000,
+        "median_from": 105000,
+        "mean_to": 170000,
+        "median_to": 170000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "51.544288",
+        "longitude": "46.008014"
+      }
+    },
+    "Сочи": {
+      "vacancies": {
+        "count": 2,
+        "mean_from": 150000,
+        "median_from": 150000,
+        "mean_to": 300000,
+        "median_to": 300000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "43.594270",
+        "longitude": "39.725225"
+      }
+    },
+    "Томск": {
+      "vacancies": {
+        "count": 5,
+        "mean_from": 157500,
+        "median_from": 165000,
+        "mean_to": 192500,
+        "median_to": 190000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "56.476938",
+        "longitude": "84.991650"
+      }
+    },
+    "Уфа": {
+      "vacancies": {
+        "count": 3,
+        "mean_from": 56666.666666666664,
+        "median_from": 60000,
+        "mean_to": 126666.66666666667,
+        "median_to": 150000
+      },
+      "resumes": {
+        "count": 0,
+        "mean_from": 0,
+        "median_from": 0,
+        "mean_to": 0,
+        "median_to": 0
+      },
+      "coordinates": {
+        "latitude": "54.823096",
+        "longitude": "56.094756"
+      }
+    }
+  }
+}
